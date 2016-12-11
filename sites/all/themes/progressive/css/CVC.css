@@ -1,0 +1,27 @@
+
+.my-overlay {
+  margin: 0px;
+  padding: 10px;
+} 
+.my-overlay .description {
+  background: transparent!important;
+  text-align: right;
+}
+
+ .view-slotevent {
+  position: relative;
+ }
+ .views-field-field-dateslotevent {
+  position: absolute;
+  top:80px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+ }
+ .views-field-field-titleforpromotion {
+  position: absolute;
+  top:20px;
+  left: 10px;
+color: white;
+font-weight:bold;
+ }

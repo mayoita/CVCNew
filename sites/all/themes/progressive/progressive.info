@@ -30,6 +30,7 @@ stylesheets[all][] = css/customizer/pages.css
 stylesheets[all][] = css/YTPlayer.css
 stylesheets[all][] = css/drupal.css
 stylesheets[all][] = css/ie/ie.css
+stylesheets[all][] = css/CVC.css
 
 scripts[] = js/bootstrap.min.js
 scripts[] = js/price-regulator/jshashtable-2.1_src.js
