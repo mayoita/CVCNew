@@ -1,13 +1,92 @@
-
-.my-overlay {
-  margin: 0px;
+#top-box,
+.carousel-box .next:hover,
+.carousel-box .prev:hover,
+.product .product-hover,
+#footer .up:hover,
+.btn,
+.btn:visited,
+.slider .slider-nav,
+.panel-group .active.panel > .panel-heading > .panel-title > a,
+.panel-group .active.panel > .panel-heading > .panel-title > a:hover,
+.banner-set .pagination a:hover,
+.employee .employee-hover,
+.carousel-box .pagination a:hover,
+.sidebar .menu li.active > a,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.sidebar .tags a:hover,
+.sidebar .banners .banner-text,
+#catalog .category-img .description,
+.product-bottom .related-products header:before,
+.slider.rs-slider .tparrows,
+.slider.rs-slider .tparrows:hover,
+.toolbar .sort-catalog .dropdown-toggle,
+.toolbar .grid-list .grid,
+.toolbar .grid-list .list,
+.toolbar .up-down,
+.toolbar .up-down.active,
+.toolbar .grid-list a.grid:hover,
+.toolbar .grid-list a.list:hover,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.sidebar .tags a,
+.sidebar .menu li.parent > a .open-sub:before,
+.sidebar .menu li.parent > a .open-sub:after,
+.panel-group .panel-default .panel-heading > .panel-title > a:before,
+.panel-group .panel-default .panel-heading > .panel-title > a:after,
+.new-radio.checked span,
+.list .product .actions a:hover,
+.product-page .col-md-7 .actions a:hover,
+.product-page .image-box .thumblist-box .prev:hover,
+.product-page .image-box .thumblist-box .next:hover,
+.accordion-tab > li > a .open-sub:before,
+.accordion-tab > li > a .open-sub:after,
+.products-tab .accordion-tab > li > a .open-sub:before,
+.products-tab .accordion-tab > li > a .open-sub:after,
+.sidebar .calendar-wrap caption,
+.btn-group.open .btn.dropdown-toggle,
+.product .limit-offer,
+.product .not-rotation-actions,
+.fancybox-nav span:hover,
+.header .primary .navbar .btn-navbar .icon-bar,
+.progressive-slider-two .pagination a,
+.progressive-slider-two .pagination a:hover,
+.progressive-slider-two .pagination .selected {
+  background-color: #eabb0c!important;
+}
+.header .primary .navbar .nav > li:hover > a, .header .primary .sub, .header .primary .navbar .nav > li.parent:hover > a:after{
+  background-color: #eabb0c!important;
+}
+#block-block-18 a{
   padding: 10px;
-} 
-.my-overlay .description {
-  background: transparent!important;
-  text-align: right;
+}
+#block-block-18 p{
+  margin-bottom:  0px!important;
 }
 
+.testoperadv{
+    position: absolute;
+    top: 74%;
+    left: 70%;
+    color: white;
+    font-size: 20px;
+} 
+
+.testoperadv:after {
+  left: 105%;
+  top: 46%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: white;
+  border-width: 10px;
+  margin-top: -10px;
+}
  .view-slotevent {
   position: relative;
  }
@@ -25,3 +104,103 @@
 color: white;
 font-weight:bold;
  }
+
+ /* Menu Page */
+ .ppb_menu_title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #222;
+    display: inline-block;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+  
+}
+
+.inner {
+    max-width: 1425px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 90px;
+}
+
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 3.5%;
+    box-sizing: border-box;
+}
+.menu_content_classic {
+    width: 100%;
+    float: left;
+    margin: 25px 0 0 0;
+    text-align: left;
+}
+h5.menu_post {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+}
+.menu_content_classic .post_detail.menu_excerpt {
+    width: calc(75% - 75px);
+}
+.post_detail.menu_excerpt {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 13px;
+    width: auto;
+    float: left;
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 0;
+    
+}
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+}
+.menu_content_classic .menu_dots {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    border: 0;
+    height: 3px;
+    display: block;
+    background-image: radial-gradient(circle closest-side,#ccc 80%,#fff 10%);
+    background-position: bottom;
+    background-size: 4px 2px;
+    background-repeat: repeat-x;
+}
+.menu_content_classic .menu_title {
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    background: #fff;
+    top: -5px;
+}
+ .menu_content_classic .menu_title, .menu_content_classic .menu_price {
+    background-color: #ffffff;
+    background-image: url(http://themes.themegoods2.com/grandrestaurant_demos/demo6/wp-content/themes/grandrestaurant/modules/kirki/assets/css/kirki-styles.css);
+    background-repeat: repeat;
+    background-position: left top;
+}
+.menu_content_classic .menu_price {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 17px;
+    color: #222;
+    z-index: 2;
+    background: #fff;
+}
