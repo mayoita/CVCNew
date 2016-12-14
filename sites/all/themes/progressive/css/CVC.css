@@ -204,3 +204,52 @@ h5.menu_post {
     z-index: 2;
     background: #fff;
 }
+/* Menu*/
+.menu_item_restaurant .entity-field-collection-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+.menu_item_restaurant .field-name-field-title{
+  position: absolute;
+ 
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  background: white;
+}
+.menu_item_restaurant .field-name-field-ingrdients {
+position: absolute;
+
+top: 30px;
+ font-weight: 900;
+  font-size: 14px;
+}
+.menu_item_restaurant .field-name-field-price{
+  position: absolute;
+left: 100%;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: white;
+}
+.menu_item_restaurant .field-name-field-categor {
+  visibility: hidden;
+}
+.column_restaurant{
+  float: none;
+    margin: 0 auto;
+}
+.field-name-field-points {
+  position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0;
+    border: 0;
+    height: 3px;
+    display: block;
+    background-image: radial-gradient(circle closest-side,#ccc 80%,#fff 10%);
+    background-position: bottom;
+    background-size: 4px 2px;
+    background-repeat: repeat-x;
+}
