@@ -53,13 +53,19 @@
 .progressive-slider-two .pagination a,
 .progressive-slider-two .pagination a:hover,
 .progressive-slider-two .pagination .selected {
-  background-color: #eabb0c!important;
+  background-color: #c79c60!important;
 }
 .header .primary .navbar .nav > li:hover > a, .header .primary .sub, .header .primary .navbar .nav > li.parent:hover > a:after{
-  background-color: #eabb0c!important;
+  background-color: #c79c60!important;
 }
 #block-block-18 a{
   padding: 10px;
+}
+.phone-header a svg path, .search-header a svg path, .product .actions a svg path, .sidebar .wishlist .add-cart:hover path, .header .cart-header .dropdown-toggle .icon svg path, .search-active .search-submit svg path, .new-checkbox svg polygon, .product-bottom .related-products li .button-box .wishlist:hover svg path, .jslider .jslider-pointer svg path, .rating-box .rating svg polygon, .search-result .search-form .search-submit svg path {
+    fill: #c79c60!important;
+}
+.header .cart-header .dropdown-toggle, #footer .newsletter input:focus + .submit, .icon, .big-icon, .big-icon:visited, .service .icon, .close:hover, .close:focus, .img-thumbnail:hover .bg-images i:before, .box-404 h1, .gallery-images:hover .bg-images i:before, .features-block .header-box .icon-box, .features-block .header-box, .sidebar .newsletter input:focus + .submit, .sidebar .section .selected .close:hover, .package .title a, .package .price-box .price, .package .price-box .icon, .pricing .title a, .pricing .options li span, .pricing .options li.active, .banner-set .next:hover, .banner-set .prev:hover, .btn.btn-border, .btn.btn-border .caret, .product-remove:hover, .one-page .header .primary .navbar .nav .active {
+    color: #c79c60!important;
 }
 #block-block-18 p{
   margin-bottom:  0px!important;
@@ -219,9 +225,7 @@ h5.menu_post {
 }
 .menu_item_restaurant .field-name-field-ingrdients {
 position: absolute;
-
 top: 30px;
- font-weight: 900;
   font-size: 14px;
 }
 .menu_item_restaurant .field-name-field-price{
@@ -231,8 +235,32 @@ left: 100%;
   font-size: 16px;
   background: white;
 }
+
 .menu_item_restaurant .field-name-field-categor {
   visibility: hidden;
+}
+.first .field-name-field-categor {
+  visibility: visible;
+  position: absolute;
+  top: -50px;
+  left: 33%;
+      text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #222;
+    display: inline-block;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+}
+.first .field-name-field-categor a {
+   pointer-events: none;
+   cursor: default;
+   text-decoration: none;
+}
+.menu_item_restaurant .first {
+  margin-top: 80px;
+  font-size: 30px;
+
 }
 .column_restaurant{
   float: none;
@@ -252,4 +280,53 @@ left: 100%;
     background-position: bottom;
     background-size: 4px 2px;
     background-repeat: repeat-x;
+}
+
+.logoW {
+  background: transparent;
+}
+.logoW .description {
+  background: transparent!important;
+}
+.menu_label_title{
+  color: white;
+  text-align: center;
+}
+.menu_label_title h1{
+  font-weight: normal;
+  
+}
+.block-md-slider {
+  max-height: none;
+}
+.container_discover{
+  padding: 20px;
+      border: 1px;
+    border-color: black;
+    border-style: double;
+        margin-top: 30px;
+        margin-bottom: 50px;
+}
+ .black {
+  background-color: black;
+}
+ .black .our_history, .black .ultimate, .black .ultimate_text {
+  color: white;
+}
+.discover {
+  color: #c79c60;
+  font-size: 50px;
+  line-height: 0.8;
+}
+.our_history {
+  font-size: 60px;
+  line-height: 0.8;
+  margin-bottom: 10px;
+}
+.ultimate {
+margin-bottom: 10px;
+}
+
+.logoW .description {
+  background: transparent;
 }
