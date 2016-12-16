@@ -1,0 +1,5 @@
+
+
+# Ignore paths that contain generated content.
+
+sites/default/files/tmp
