@@ -31,6 +31,7 @@ stylesheets[all][] = css/YTPlayer.css
 stylesheets[all][] = css/drupal.css
 stylesheets[all][] = css/ie/ie.css
 stylesheets[all][] = css/CVC.css
+stylesheets[all][] = css/Cover3D.css
 
 scripts[] = js/bootstrap.min.js
 scripts[] = js/price-regulator/jshashtable-2.1_src.js
@@ -67,6 +68,7 @@ scripts[] = js/SmoothScroll.js
 scripts[] = js/jquery.mb.YTPlayer.js
 scripts[] = js/main.js
 scripts[] = js/drupal.js
+scripts[] = js/Cover3D.js
 
 features[] = name
 features[] = logo
