@@ -423,3 +423,20 @@ margin-bottom: 10px;
  width: inherit;
  height: initial;
 }
+
+.pane-historytermview .pane-title{
+  visibility: hidden;
+} 
+
+.pane-term-name .pane-title {
+  visibility: hidden;
+  height: 0px;
+}
+.page-taxonomy-term .nd-region{
+  padding: 0px;
+}
+ #block-views-backgroundhistory-block .title-box{
+  visibility: hidden;
+  height: 0px;
+  margin-bottom: 0px;
+} 
