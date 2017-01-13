@@ -426,6 +426,7 @@ margin-bottom: 10px;
 
 .pane-historytermview .pane-title{
   visibility: hidden;
+  height: 0px;
 } 
 
 .pane-term-name .pane-title {
@@ -440,3 +441,28 @@ margin-bottom: 10px;
   height: 0px;
   margin-bottom: 0px;
 } 
+.termview .views-field-title{
+  font-size: 23px;
+}
+.termview {
+  border-bottom: rgba(128, 128, 128, 0.48);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 20px;
+}
+
+.termview a {
+  color: red;
+} 
+
+.termview h4{
+  font-size: 17px;
+} 
+.page-taxonomy-term .inside {
+  padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.product .product-hover .price {
+  font-size: 12px;
+  }
