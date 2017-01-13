@@ -1,0 +1,42 @@
+<?php
+function cover3d_theme_registry_alter(&$theme_registry) {
+  $theme_registry['field']['theme path'] = drupal_get_path('module', 'cover3d');
+  $theme_registry['field']['function'] = 'cover3d_theme_field';
+}
+?>
+
+<?php
+function cover3d_theme_field($variables) {
+  $output = '';
+ 
+if ($variables['element']['#field_name'] == 'field_bookimage') {
+  foreach ($variables['items'] as $delta => $item) {
+    $output .= '<div id="cover1" class="' . $variables['field_name_css'] . '">';
+    $output .= drupal_render($item);
+    $output .= '</p>';
+  }
+}
+  else {
+// Render the label, if it's not hidden.
+  if (!$variables['label_hidden']) {
+    $output .= '<div class="field-label"' . $variables['title_attributes'] . '>' . $variables['label'] . ':&nbsp;</div>';
+  }
+ 
+
+// Render the items.
+  $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
+  foreach ($variables['items'] as $delta => $item) {
+    $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+    $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+  }
+  $output .= '</div>';
+ 
+
+// Render the top-level DIV.
+  $output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
+}
+  return
+
+$output;
+}
+?>

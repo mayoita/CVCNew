@@ -61,8 +61,13 @@
 #block-block-18 a{
   padding: 10px;
 }
-.phone-header a svg path, .search-header a svg path, .product .actions a svg path, .sidebar .wishlist .add-cart:hover path, .header .cart-header .dropdown-toggle .icon svg path, .search-active .search-submit svg path, .new-checkbox svg polygon, .product-bottom .related-products li .button-box .wishlist:hover svg path, .jslider .jslider-pointer svg path, .rating-box .rating svg polygon, .search-result .search-form .search-submit svg path {
+.phone-header a svg path, .search-header a svg path, .product .actions a svg path, .sidebar .wishlist .add-cart:hover path, .header .cart-header .dropdown-toggle .icon svg path, .search-active .search-submit svg path, .new-checkbox svg polygon, .product-bottom .related-products li .button-box .wishlist:hover svg path, .jslider .jslider-pointer svg path, .rating-box .rating svg polygon, .search-result .search-form .search-submit svg path,
+.compare-header a svg path, .wishlist-header a svg path {
     fill: #c79c60!important;
+}
+.compare-header a,
+.wishlist-header a  {
+  color: #c79c60!important;
 }
 .header .cart-header .dropdown-toggle, #footer .newsletter input:focus + .submit, .icon, .big-icon, .big-icon:visited, .service .icon, .close:hover, .close:focus, .img-thumbnail:hover .bg-images i:before, .box-404 h1, .gallery-images:hover .bg-images i:before, .features-block .header-box .icon-box, .features-block .header-box, .sidebar .newsletter input:focus + .submit, .sidebar .section .selected .close:hover, .package .title a, .package .price-box .price, .package .price-box .icon, .pricing .title a, .pricing .options li span, .pricing .options li.active, .banner-set .next:hover, .banner-set .prev:hover, .btn.btn-border, .btn.btn-border .caret, .product-remove:hover, .one-page .header .primary .navbar .nav .active {
     color: #c79c60!important;
@@ -329,10 +334,7 @@ background: #fff;
 border-width: 1px;
 border-color: rgb(208, 208, 208);
 padding: 10px;
-top: 30px;
-left: 20px;
-right: 20px;
-bottom: 30px;
+
 }
 
 .column_restaurant{
@@ -382,22 +384,27 @@ bottom: 30px;
 }
 .container_discover{
   padding: 20px;
-      border: 1px;
-    border-color: black;
+    border: 1px;
+    border-color: #d8d8d8;
     border-style: double;
-        margin-top: 30px;
-        margin-bottom: 50px;
+       
 }
- .black {
+ .black_box {
   background-color: black;
 }
- .black .our_history, .black .ultimate, .black .ultimate_text {
+ .black_box .our_history, .black_box .ultimate, .black_box .ultimate_text {
   color: white;
 }
-.discover {
+.gold_title {
   color: #c79c60;
   font-size: 50px;
   line-height: 0.8;
+padding-bottom: 15px;
+}
+.menu_our {
+padding-bottom: 0;
+font-size: 70px;
+line-height: 20px;
 }
 .our_history {
   font-size: 60px;
@@ -406,6 +413,9 @@ bottom: 30px;
 }
 .ultimate {
 margin-bottom: 10px;
+}
+#our_menu {
+  margin-bottom: 10px;
 }
 
 .logoW .description {
@@ -423,46 +433,56 @@ margin-bottom: 10px;
  width: inherit;
  height: initial;
 }
-
-.pane-historytermview .pane-title{
-  visibility: hidden;
-  height: 0px;
-} 
-
-.pane-term-name .pane-title {
-  visibility: hidden;
-  height: 0px;
+#video-176-video_html5_api {
+  width: 100%;
 }
-.page-taxonomy-term .nd-region{
-  padding: 0px;
+.class_overlay_video {
+      color: white!important;
+    position: absolute;
+    top: 120px;
+    width: 100%;
 }
- #block-views-backgroundhistory-block .title-box{
-  visibility: hidden;
-  height: 0px;
-  margin-bottom: 0px;
-} 
-.termview .views-field-title{
-  font-size: 23px;
+.view-white-wine h3, .view-red-wine h3, .view-champagnes-wine h3{
+  font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 2px solid #c79c60;
+    font-family: "open_sansbold";
+    color: #333;
+    letter-spacing: 0.16em;
 }
-.termview {
-  border-bottom: rgba(128, 128, 128, 0.48);
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    padding-bottom: 20px;
+.subtitle-wine {
+  color: #888;
+    font-size: 14px;
+    font-family: "open_sansregular";
+    line-height: 2em;
 }
-
-.termview a {
-  color: red;
-} 
-
-.termview h4{
-  font-size: 17px;
-} 
-.page-taxonomy-term .inside {
-  padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
+.price-food {
+  font-size: 20px;
+    color: #333;
+    
 }
-.product .product-hover .price {
-  font-size: 12px;
-  }
+.container_wine {
+  height: 200px;
+  background-color: black;
+  opacity: .6;
+}
+.container_wine .gold_title {
+  font-size: 70px;
+  margin-top: 50px;
+}
+.gold_title_sub {
+  color: white;
+}
+.overlay_frame {
+  color: white;
+}
+.row.home {
+      margin-top: 50px;
+    
+    text-align: center;
+}
+#block-md-slider-cvc {
+  position: absolute;
+  width: 100%;
+}
