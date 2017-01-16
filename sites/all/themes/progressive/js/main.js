@@ -1336,7 +1336,7 @@ function initialize() {
 function loadScript() {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBdHuFdQHkq--WD6-eiT-pCds2sPju8kcI&sensor=false&' +
     'callback=initialize';
   document.body.appendChild(script);
 }
